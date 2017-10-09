@@ -1,4 +1,21 @@
 # Ebay Team Weekly Progress log
+# week 6
+Previous Week:
+- Met with the company advisor about our new current product direction and narrative.
+- Changed and updated our product description, product loop, architecture diagram and Narrative Complete Product.
+ - Make progress with classification methods for different types of clothes shoppers.
+
+Next Week:
+- Sprint 2 – Validate the narrative
+- Demo our presentation during the Sprint.
+- Validate the demo
+- Updating the billboard
+
+Risks/Challenges:
+- We made a lot of changes in the past week and we need to validate them during sprint 2.
+- Developing machine learning algorithm on raw data is feasible, need to find a way to clean data.
+- The landscape is competitive; need to focus on finding a novel solution which is benefitted by eBay's unique consumer data.
+
 # week 5
 Progress this week:
 - Got more feedback on our initial idea at the Crit meeting
@@ -29,7 +46,7 @@ Risks:
    - None of us is familiar with Django, which may take a lot of time to build an initial website.
    - Developing machine learning algorithm on raw data is feasible, need to find a way to clean data.
    - The landscape is competitive; need to focus on finding a novel solution which is benefitted by eBay's unique consumer data.
-## week 3
+# week 3
 Previous Week:
   - Met with studio advisor for input on what direction to take for our challenge
   - Re-evaluated our approach to the challenge by focusing on general user issues when shopping for clothes.
@@ -45,7 +62,7 @@ Risks:
   - Need to be diligent on scope creep; a lot of complicated technologies are used in this space and implementation may be infeasible if we try to do too much.
   - The landscape is competitive; need to focus on finding a novel solution which is benefitted by eBay's unique consumer data.   
 
-## week 2
+# week 2
 Previous Week:
   - Met with company advisor and team at eBay offices
   - Generated 2 rounds of product sketches, using the Sprint method
@@ -61,7 +78,7 @@ Risks:
   - Implementation of ideas may take quite a bit of time given the scope
   - Understanding the intellectual property rights of various computer vision APIs
   - Result of deeper research will likely change current consumer segmentation
-## week 1
+# week 1
 Previous Week:
    - First meeting of the team
    - Research about current fashion recommendation products
