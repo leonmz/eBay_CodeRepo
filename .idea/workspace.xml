@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="535f95de-da11-418d-a8cd-f383ed3108c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/src/templates/home.html" afterPath="$PROJECT_DIR$/mysite/src/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/src/templates/post_list.html" afterPath="$PROJECT_DIR$/mysite/src/templates/post_list.html" />
     </list>
@@ -28,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/src/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1099">
-              <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
+            <state relative-caret-position="193">
+              <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/mysite/src/trydjango19/urls.py" />
         <option value="$PROJECT_DIR$/mysite/src/posts/views.py" />
-        <option value="$PROJECT_DIR$/mysite/src/templates/home.html" />
         <option value="$PROJECT_DIR$/mysite/src/templates/post_list.html" />
+        <option value="$PROJECT_DIR$/mysite/src/templates/home.html" />
       </list>
     </option>
   </component>
@@ -326,18 +325,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/src/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="76" column="59" lean-forward="false" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_list.html">
+    <entry file="file://$PROJECT_DIR$/mysite/src/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="193">
+          <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
           <folding />
         </state>
       </provider>
