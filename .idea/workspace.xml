@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="535f95de-da11-418d-a8cd-f383ed3108c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/eBay_CodeRepo.iml" afterPath="$PROJECT_DIR$/.idea/eBay_CodeRepo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/mysite/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/src/templates/post_detail.html" afterPath="$PROJECT_DIR$/mysite/src/templates/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/src/templates/post_list.html" afterPath="$PROJECT_DIR$/mysite/src/templates/post_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -58,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="49">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -558,7 +554,7 @@
     <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -566,7 +562,7 @@
     <entry file="file://$PROJECT_DIR$/mysite/src/templates/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
