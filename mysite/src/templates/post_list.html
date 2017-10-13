@@ -14,15 +14,33 @@
     }
 </style>
 
-<!--<div class='col-sm-6 col-sm-offset-3'>-->
+<script>
+
+    // Called on body's `onload` event
+    function init() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            // Retrieving the text input's value which was stored into localStorage
+            var mytext = localStorage.getItem("mytext");
+            // Writing the value in the document
+            document.getElementById("search_box").value = mytext;
+            document.getElementById("clothes_form").submit();
+        }
+
+    }
+
+</script>
+
+
+<body onLoad="init();">
+  
 <div class="container text-center">
-  <!--<div class="jumbotron text-center">-->
     <h1 id = "font">Outfits</h1>
-<form method='GET' action=''>
-    <div class = "row">
-<input type='text' name='q' placeholder='Search Styles' class="col-md-11 "  value='{{ request.GET.q }}'/>
+<form method='GET' action='' id = "clothes_form">
+  <div class = "row">
+<input type='text' id = 'search_box' name='q' class="col-md-11 " placeholder='Search styles' value='{{ request.GET.q }}'/>
 <input type='submit' class = "btn btn-primary btn-sm" value = 'Style U'> </input>
-    </div>
+  </div>
 </form>
   <!--</div>-->
 </div>
@@ -47,6 +65,7 @@
 {#<hr/>#}
 {#</div>#}
 {% endfor %}
+    </body>
 
 
 
