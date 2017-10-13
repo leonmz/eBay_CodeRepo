@@ -1,11 +1,48 @@
 {% extends "base.html" %}
 {% block content %}
 
+<script>
 
+    // Called on body's `onload` event
+    function init() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            // Retrieving the text input's value which was stored into localStorage
+            var mytext = localStorage.getItem("mytext");
+            // Writing the value in the document
+            document.getElementById("search_box").value = mytext;
+            document.getElementById("clothes_form").submit();
+        }
+
+    }
+
+</script>
+
+
+<!--<body onLoad="init();">-->
+    <!--<div id="container">-->
+
+    <!--<div id="header">-->
+
+    <!--</div>-->
+    <!--<div id="navigation">-->
+    <!--</div>-->
+    <!--<div id="searchBar"> &lt;!&ndash; message will be shown here &ndash;&gt;-->
+    <!--</div>-->
+    <!--<div id="rightcolumn">-->
+    <!--</div>-->
+    <!--<div id="footer">-->
+    <!--Department of Computing-->
+    <!--</div>-->
+    <!--</div>-->
+
+<!--</body>-->
+
+<body onLoad="init();">
 <div class='col-sm-6 col-sm-offset-3'>
     <h1>Outfits</h1>
-<form method='GET' action=''>
-<input type='text' name='q' placeholder='Search styles' value='{{ request.GET.q }}'/>
+<form method='GET' action='' id = "clothes_form">
+<input type='text' id = 'search_box' name='q' placeholder='Search styles' value='{{ request.GET.q }}'/>
 <input type='submit' class = "btn btn-primary" value = 'Style U'> </input>
 </form>
 {% for obj in object_list %}
@@ -27,6 +64,7 @@
 {#<hr/>#}
 {#</div>#}
 {% endfor %}
+    </body>
 
 
 
