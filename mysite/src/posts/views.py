@@ -18,6 +18,15 @@ from django.utils import timezone
 from .forms import PostForm
 from .models import Post
 
+def home(request):
+	form = PostForm(request.POST or None)
+	if request.method == "POST":
+		print request.POST
+	context = {
+		"form": form,
+	}
+	return render(request, "home.html", context)
+
 def post_create(request):
 	if not request.user.is_staff or not request.user.is_superuser:
 		raise Http404

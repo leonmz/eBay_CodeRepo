@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+#font {
+    font-family: 'Fredericka the Great', cursive;
+}
+</style>
+
+
+<script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+    $(document).on('click', '#submit', function(){
+        window.location.href = "http://www.bing.com";
+    });
+</script>
+
+<html lang="en">
+<head>
+  <title>Search Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">STYLEU</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Your Closet</a></li>
+    </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1 id="font">STYLEU</h1>
+      <br>
+      <br>
+    <p>what do you want to find a match for?</p>
+  </div>
+</div>
+
+<br>
+<br>
+<div class="container">
+  <p>Search for the item that you would like:</p>
+  <form>
+    <div class="form-group">
+      <label for="pwd">Clothes Item:</label>
+      <input type="text" class="form-control" id="pwd" placeholder="Enter item">
+      <span class="help-block">We will find fashionable items relevant for you.</span>
+    </div>
+      <a href="/posts" type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search</a>
+  </form>
+</div>
+</body>
+</html>
