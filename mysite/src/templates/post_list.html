@@ -1,17 +1,35 @@
 {% extends "base.html" %}
 {% block content %}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+#font {
+    font-family: 'Fredericka the Great', cursive;
+}
+    .btn-primary {
+        background: #7c8dc7;
+        color: #ffffff;
+    }
+    body {
+    background-color: lightblue;
+    }
+</style>
 
-
-<div class='col-sm-6 col-sm-offset-3'>
-    <h1>Outfits</h1>
+<!--<div class='col-sm-6 col-sm-offset-3'>-->
+<div class="container text-center">
+  <!--<div class="jumbotron text-center">-->
+    <h1 id = "font">Outfits</h1>
 <form method='GET' action=''>
-<input type='text' name='q' placeholder='Search styles' value='{{ request.GET.q }}'/>
-<input type='submit' class = "btn btn-primary" value = 'Style U'> </input>
+    <div class = "row">
+<input type='text' name='q' placeholder='Search Styles' class="col-md-11 "  value='{{ request.GET.q }}'/>
+<input type='submit' class = "btn btn-primary btn-sm" value = 'Style U'> </input>
+    </div>
 </form>
+  <!--</div>-->
+</div>
 {% for obj in object_list %}
 {#<div class="row">#}
   <div class="col-md-6">
-    <div class="thumbnail">
+    <div class="thumbnail" style = "backgroundcolor:lightblue;" >
         {% if obj.image %}
          <img src='{{ obj.image.url }}' class='img-responsive' />
         {% endif %}
@@ -20,10 +38,12 @@
 {#        <h3><a href='{{ obj.get_absolute_url }}'>{{ obj.title }}</a> <small>{{ obj.publish }}</small></h3>#}
 {#        {% if obj.user.get_full_name %}<p>Author: {{ obj.user.get_full_name }}</p>{% endif %}#}
 {#        <p>{{ obj.content|linebreaks|truncatechars:120 }}</p>#}
-        <p><a href="{{ obj.get_absolute_url }}" class="btn btn-primary" role="button">View</a></p>
+        <p><a href="{{ obj.get_absolute_url }}" class="btn btn-primary" style = ""
+              role="button">Shop This Outfit</a></p>
       </div>
     </div>
   </div>
+    <div class="clearfix visible-sm"></div>
 {#<hr/>#}
 {#</div>#}
 {% endfor %}
@@ -51,6 +71,6 @@
 
 
 
-</div>
+<!--</div>-->
 
 {% endblock content %}
