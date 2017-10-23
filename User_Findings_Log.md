@@ -148,7 +148,7 @@ Lives: California
 7. If you go to anyone for fashion advice, who is it?
 >    Her girl-friends.
 
-###Person 6:
+### Person 6:
 Gender: Female
 Age: 27
 From: Korea
