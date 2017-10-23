@@ -1,4 +1,32 @@
 # Ebay Team Weekly Progress log
+# week 8
+Previous Week:
+- Unpacked learnings from Sprint 2
+- Started work on our detailed Architecture Diagram
+Continued doing more User Research
+
+Next Week:
+- Start building an outfit database
+- Flesh out the design of our product
+- Start prototyping and testing features
+
+Risks/Challenges:
+- Finding outfits to train our models can be challenging
+Building an accurate recommendation engine; it is easy to fall down a rathole and spend a lot of time trying to make a good recommendation system.
+- Linking our recommendations to the eBay site also appears to be a challenge since items change on the site continuously.
+# week 7
+Previous Week:
+- Sprint 2
+- stood up a narrative complete product - used django to build initial backend and frontend
+- Researched various technologies and created a plan for how to implement these technologies into potential product features
+
+Next Week:
+- Unpack learnings from Sprint 2
+- Validate the narrative with various current eBay and non-eBay shoppers 
+
+Risks/Challenges:
+- There are many potential features we could add to the product, but it will be a challenge to decide which features we can feasibly build and which to prioritize
+- There are many potential customer segments we could target, but trying to build a product that meets all their needs might be too much, we need to decide how to narrow our scope
 # week 6
 Previous Week:
 - Met with the company advisor about our new current product direction and narrative.

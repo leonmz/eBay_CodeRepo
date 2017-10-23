@@ -1,5 +1,5 @@
 # User Findings Log (Test Product on 3 People):
-## Questions to Ask (Week of 9.26):
+## Questions to Ask (Week of 10.21):
 1. Tell me about your last experience going clothes shopping.
 2. What did you enjoy most about it?
 3. What part was most annoying?
@@ -147,3 +147,34 @@ Lives: California
 
 7. If you go to anyone for fashion advice, who is it?
 >    Her girl-friends.
+
+###Person 6:
+Gender: Female
+Age: 27
+From: Korea
+Lives: NY
+
+1. Describe your most recent shopping experience.
+>    She went to J-Crew to buy some clothes for Fall Clothes last weekend. Browsed stores, tried on all these different types of clothes. 10 different types, tried different sizes. Pleasant shopping experience.
+
+2. What did you most enjoy about your experience?
+>    It was close to where she was walking around. Very simple
+
+3. What part was annoying?
+>    It seemed like all the stores didn’t have her size for clothing she wanted.
+
+4. When was the last time you bought clothes online?
+>    Last time buying online, she thinks its difficult to buy clothes because of sizing. Bought some clothes online during the summer from jcrew and amazon. Buy shoes and random stuff. Color is sometimes difficult to know from the computer. Return process is difficult.
+
+5. Do you consider yourself a fashionable person?
+>    More practical shopping. Go shopping only when necessary. Cosmetic shopper. She invests a lot of money on clothes so buys quality over quantity.
+
+6. Is it hard to keep up with fashion?
+>    Sometimes. She enjoys the process.
+
+7. If you go to anyone for fashion advice, who is it?
+>    There are some fashion people she follows, Alexa Chung. She looks at what types of trends she follows. Ads on IG and Facebook remind her of styles and trends she likes.
+
+##Conclusion of Oct 22 user finding:
+
+People are most frustrated at sizing - not being able to find correct sizes during in-store shopping and not ordering the right size/ fit during online shopping (even though people order more than one size and return sometimes). Some people buy online for special occasions, but many buy in-store. People who shop more frequently tend to buy online for special occasions more than those who don't shop as frequently, perhaps they are more comfortable with the whole process.
