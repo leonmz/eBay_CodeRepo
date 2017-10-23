@@ -1,3 +1,12 @@
 *.pyc
 .idea/*
 .DS_Store
+<<<<<<< Updated upstream
+*/.DS_Store
+=======
+mysite/src/.DS_Store
+
+mysite/.DS_Store
+
+mysite/src/.DS_Store
+>>>>>>> Stashed changes
