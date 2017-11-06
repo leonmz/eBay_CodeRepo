@@ -6,10 +6,11 @@ Previous Week:
 - Researching how to tag photos of clothing
 - Had a Scrum meeting, and got peer feedback on our progres
 
-Next Week: 
+Next Week (make our narrative Complete): 
 - 3rd Crit Meeting
 - Host our website on a server
 - Update our database with photos from our crawler
+- Collect fashion images from different sources to target different customer group
 
 Risks/Challenges:
 - There is difficulty in finding tagged clothing on Pinterest
