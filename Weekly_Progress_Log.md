@@ -1,4 +1,36 @@
 # Ebay Team Weekly Progress log
+
+# week 10
+Previous Week:
+- Began to crawl pinterest for photos
+- Researching how to tag photos of clothing
+- Had a Scrum meeting, and got peer feedback on our progres
+
+Next Week: 
+- 3rd Crit Meeting
+- Host our website on a server
+- Update our database with photos from our crawler
+
+Risks/Challenges:
+- There is difficulty in finding tagged clothing on Pinterest
+- Figuring out which photos to display to users
+- Filtering out advertisements and other unwanted data
+
+# week 9
+Previous Week:
+- Finished new UI design under 5 E framework
+- Had a crit session and updated our crit logs
+- Designed new tech stack of ebay project
+
+Next Week: 
+- Developed python crawler on outfits from trend sources
+- Implemented server side optimization
+- Having more detailed user testing
+
+Risks/Challenges:
+- Explore the way to utilize "find it on eBay" feature
+- Developed sort algorithm that we can used to display for users
+
 # week 8
 Previous Week:
 - Unpacked learnings from Sprint 2
