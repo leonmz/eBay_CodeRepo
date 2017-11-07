@@ -5,8 +5,29 @@ threadsafe: yes
 handlers:
 - url: /static
   static_dir: static/
+
 - url: .*
   script: mysite.wsgi.application
+
+- url: /
+  script: home.app
+
+- url: /index\.html
+  script: home.app
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: static/.*\.(gif|png|jpg)$
+
+- url: /admin/.*
+  script: admin.app
+  login: admin
+
+- url: /.*
+  script: not_found.app
 
 # Only pure Python libraries can be vendored
 # Python libraries that use C extensions can
