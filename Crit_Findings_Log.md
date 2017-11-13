@@ -1,5 +1,11 @@
 # Crit Findings Log (Summarize Feedback from Crit):
 
+## 11.7
+- Having something that more fit people's size
+- Should be more clear about customer targeting
+- Needs some imporvement with the UI design as well
+- The biggest takeaway should be creating something really productive and unique user experience
+
 ## 10.23
 - Personalization is too high friction, focus more on general style
 - Act as a personal stylist to by importing uses' input from picture searching
