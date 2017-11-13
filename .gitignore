@@ -3,7 +3,7 @@
 mysite/.idea
 mysite/src/trydjango19/settings/local.py
 */local.py
-.DS_Store
+*/.DS_Store
 .DS_Store
 bin/
 include/
