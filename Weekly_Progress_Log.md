@@ -1,4 +1,16 @@
 # Ebay Team Weekly Progress log
+# week 11
+Previous Week:
+- 3rd Crit Meeting
+- Started migrating website to server
+- Working on building the clothing database and figuring out how to implement a Pinterest crawler.
+Next Week: 
+- Prepare for Sprint 3
+- Figure out what features are feasible to build
+Risks/Challenges:
+- Building the clothing database is proving to be difficult; getting tagged clothes is difficult
+- Scope creep can hinder our progress; we need to be certain of what features we can actually implement
+
 
 # week 10
 Previous Week:
