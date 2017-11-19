@@ -1,4 +1,21 @@
 # Ebay Team Weekly Progress log
+
+# week 12
+Previous Week:
+- Sprint3
+- Built the pinterest crawler
+- Import more data into our product
+
+
+Next Week: 
+- ThanksGiving!
+- Prepare for the final presentation
+
+
+Risks/Challenges:
+- Calling of image search API may needs more work
+
+
 # week 11
 Previous Week:
 - 3rd Crit Meeting
