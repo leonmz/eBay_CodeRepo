@@ -1,4 +1,11 @@
 # Ebay Team Weekly Progress log
+# week 13
+Previous Week:
+- Reflected on the work we have accomplished this semester
+
+Next Week: 
+- Tweak our final presentation slightly from the Sprint 3 presentations
+- Create a team poster
 
 # week 12
 Previous Week:
